@@ -1,11 +1,10 @@
 import React from "react";
-import "./App.scss";
 import Icon from "./Components/core/Icon";
 
 function App() {
   return (
     <div className="text-3xl">
-      <Icon name="Add" />
+      <Icon className="w-5 h-5 text-teal-500" name="Add" />
     </div>
   );
 }
