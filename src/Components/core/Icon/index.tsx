@@ -4,7 +4,6 @@ import { getIconComponent } from "./helper";
 
 function Icon({ name, className, onClick }: IconComponents) {
   const IconComponent = getIconComponent(name);
-  console.log(IconComponent);
   return IconComponent ? (
     <IconComponent className={className} onClick={onClick} />
   ) : null;
