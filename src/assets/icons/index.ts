@@ -1,3 +1,4 @@
+// @ts-nocheck
 import NorthEastIcon from "./NorthEast.svg?react";
 import SouthWest from "./SouthWest.svg?react";
 import TrendingUp from "./treadingUp.svg?react"; // Corrected typo here

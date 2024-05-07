@@ -1,10 +1,14 @@
-import React from "react";
-import Icon from "./Components/core/Icon";
+import React, { useState } from "react";
+import Chip from "./Components/core/Chip";
 
 function App() {
+  const [selected, setSelected] = useState(false);
   return (
-    <div className="text-3xl">
-      <Icon className="w-5 h-5 text-teal-500" name="Add" />
+    <div className="text-3xl h-screen flex items-center justify-center w-full">
+      <Chip
+        selected={selected}
+        handleSelection={() => setSelected((prev) => !prev)}
+      />
     </div>
   );
 }
