@@ -8,6 +8,10 @@ export interface IconComponents {
   className?: string;
   onClick?: () => void;
 }
+export interface restIconProps {
+  className?: string;
+  onClick?: () => void;
+}
 
 export interface ChipProps {
   type?: (typeof CHIP_TYPES)[keyof typeof CHIP_TYPES];
@@ -16,9 +20,26 @@ export interface ChipProps {
   title?: string;
   preIcon?: IconName;
   postIcon?: IconName;
-  preIconProps?: IconComponents;
-  postIconProps?: IconComponents;
+  preIconProps?: restIconProps;
+  postIconProps?: restIconProps;
   className?: string;
   selected?: boolean;
   handleSelection?: MouseEventHandler<HTMLDivElement>;
+}
+
+// Define the props for the Input component
+export interface InputProps {
+  label?: string;
+  value: string;
+  onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
+  type?: string;
+  onFocus?: (e: React.FocusEvent<HTMLInputElement>) => void;
+  onBlur?: (e: React.FocusEvent<HTMLInputElement>) => void;
+  error?: string;
+  description?: string;
+  preIcon?: IconName;
+  preIconProps?: restIconProps;
+  postIcon?: IconName;
+  postIconProps?: restIconProps;
+  disabled?: boolean;
 }
