@@ -18,6 +18,155 @@
   --color-surface-200: #fcfcfc;
   --color-surface-300: #fcfcfc;
   --color-surface-500: #fdfdfd;
+
+  //  danger color for error used for negative action
+  --danger-25: #fffbfa;
+  --danger-50: #fef3f2;
+  --danger-100: #fee4e2;
+  --danger-200: #fecdca;
+  --danger-300: #fda29b;
+  --danger-400: #f97066;
+  --danger-500: #f04438;
+  --danger-600: #d92d20;
+  --danger-700: #b42318;
+  --danger-800: #912018;
+  --danger-900: #7a271a;
+  --danger-950: #55160c;
+
+  // warning color for warning used for on hold
+  --warning-25: #fffcf5;
+  --warning-50: #fffaeb;
+  --warning-100: #fef0c7;
+  --warning-200: #fedf89;
+  --warning-300: #fec84b;
+  --warning-400: #fdb022;
+  --warning-500: #f79009;
+  --warning-600: #dc6803;
+  --warning-700: #b54708;
+  --warning-800: #93370d;
+  --warning-900: #7a2e0e;
+  --warning-950: #4e1d09;
+
+  // success color for success used for positive action
+  --success-25: #f6fef9;
+  --success-50: #ecfdf3;
+  --success-100: #dcfae6;
+  --success-200: #abefc6;
+  --success-300: #75e0a7;
+  --success-400: #47cd89;
+  --success-500: #17b26a;
+  --success-600: #079455;
+  --success-700: #067647;
+  --success-800: #085d3a;
+  --success-900: #074d31;
+  --success-950: #053321;
+
+  /**
+          *Along with primary colors, it's helpful to have a selection of secondary colors
+          *  to use in components such as pills, alerts and labels. 
+          * These secondary colors should be used sparingly or as accents, while the primary color(s) should take precedence.
+          *
+          */
+  --teal-25: #f6fefc;
+  --teal-50: #f0fdf9;
+  --teal-100: #ccfbef;
+  --teal-200: #99f6e0;
+  --teal-300: #5fe9d0;
+  --teal-400: #2ed3b7;
+  --teal-500: #15b79e;
+  --teal-600: #0e9384;
+  --teal-700: #107569;
+  --teal-800: #125d56;
+  --teal-900: #134e48;
+  --teal-950: #0a2926;
+
+  // cyan
+  --cyan-25: #f5feff;
+  --cyan-50: #ecfdff;
+  --cyan-100: #cff9fe;
+  --cyan-200: #a5f0fc;
+  --cyan-300: #67e3f9;
+  --cyan-400: #22ccee;
+  --cyan-500: #06aed4;
+  --cyan-600: #088ab2;
+  --cyan-700: #0e7090;
+  --cyan-800: #155b75;
+  --cyan-900: #164c63;
+  --cyan-950: #0d2d3a;
+
+  --fuchia-25: #fefaff;
+  --fuchia-50: #fdf4ff;
+  --fuchia-100: #fbe8ff;
+  --fuchia-200: #f6d0fe;
+  --fuchia-300: #eeaafd;
+  --fuchia-400: #e478fa;
+  --fuchia-500: #d444f1;
+  --fuchia-600: #ba24d5;
+  --fuchia-700: #9f1ab1;
+  --fuchia-800: #821890;
+  --fuchia-900: #6f1877;
+  --fuchia-950: #47104c;
+
+  --rose-25: #fff5f6;
+  --rose-50: #fff1f3;
+  --rose-100: #ffe4e8;
+  --rose-200: #fecdd6;
+  --rose-300: #fea3b4;
+  --rose-400: #fd6f8e;
+  --rose-500: #f63d68;
+  --rose-600: #e31b54;
+  --rose-700: #c01048;
+  --rose-800: #a11043;
+  --rose-900: #89123e;
+  --rose-950: #510b24;
+
+  // investment color
+  --investment-25: #f3f0ff;
+  --investment-50: #e5dbff;
+  --investment-100: #d0bfff;
+  --investment-200: #b197fc;
+  --investment-300: #9775fa;
+  --investment-400: #845ef7;
+  --investment-500: #7950f2;
+  --investment-600: #7048e8;
+  --investment-700: #6741d9;
+  --investment-800: #5f3dc4;
+
+  // income color
+  --income-25: #ebfbee;
+  --income-50: #d3f9d8;
+  --income-100: #b2f2bb;
+  --income-200: #8ce99a;
+  --income-300: #69db7c;
+  --income-400: #51cf66;
+  --income-500: #40c057;
+  --income-600: #37b24d;
+  --income-700: #2f9e44;
+  --income-800: #2b8a3e;
+
+  // expense
+  --expense-25: #fff5f5;
+  --expense-50: #ffe3e3;
+  --expense-100: #ffc9c9;
+  --expense-200: #ffa8a8;
+  --expense-300: #ff8787;
+  --expense-400: #ff6b6b;
+  --expense-500: #fa5252;
+  --expense-600: #f03e3e;
+  --expense-700: #e03131;
+  --expense-800: #c92a2a;
+
+  // subscription
+  --subscription-25: #fefaf5;
+  --subscription-50: #fef6ee;
+  --subscription-100: #fdead7;
+  --subscription-200: #f9dbaf;
+  --subscription-300: #f7b27a;
+  --subscription-400: #f38744;
+  --subscription-500: #ef6820;
+  --subscription-600: #e04f16;
+  --subscription-700: #b93815;
+  --subscription-800: #932f19;
 }
 /** Examples */
 
@@ -37,6 +186,155 @@
   --color-surface-200: #575757;
   --color-surface-300: #717171;
   --color-surface-500: #8b8b8b;
+
+  // danger color for error used for negative action
+  --danger-25: #55160c;
+  --danger-50: #7a271a;
+  --danger-100: #912018;
+  --danger-200: #b42318;
+  --danger-300: #d92d20;
+  --danger-400: #f04438;
+  --danger-500: #f97066;
+  --danger-600: #fda29b;
+  --danger-700: #fecdca;
+  --danger-800: #fee4e2;
+  --danger-900: #fef3f2;
+  --danger-950: #fffbfa;
+
+  // warning color for warning used for on hold
+  --warning-25: #4e1d09;
+  --warning-50: #7a2e0e;
+  --warning-100: #93370d;
+  --warning-200: #b54708;
+  --warning-300: #dc6803;
+  --warning-400: #f79009;
+  --warning-500: #fdb022;
+  --warning-600: #fec84b;
+  --warning-700: #fedf89;
+  --warning-800: #fef0c7;
+  --warning-900: #fffaeb;
+  --warning-950: #fffcf5;
+
+  // success color for success used for positive action
+  --success-25: #053321;
+  --success-50: #074d31;
+  --success-100: #085d3a;
+  --success-200: #067647;
+  --success-300: #079455;
+  --success-400: #17b26a;
+  --success-500: #47cd89;
+  --success-600: #75e0a7;
+  --success-700: #abefc6;
+  --success-800: #dcfae6;
+  --success-900: #ecfdf3;
+  --success-950: #f6fef9;
+
+  /**
+ * Along with primary colors, it's helpful to have a selection of secondary colors
+ * to use in components such as pills, alerts and labels. 
+ * These secondary colors should be used sparingly or as accents, while the primary color(s) should take precedence.
+ *
+ */
+  --teal-25: #0a2926;
+  --teal-50: #134e48;
+  --teal-100: #125d56;
+  --teal-200: #107569;
+  --teal-300: #0e9384;
+  --teal-400: #15b79e;
+  --teal-500: #2ed3b7;
+  --teal-600: #5fe9d0;
+  --teal-700: #99f6e0;
+  --teal-800: #ccfbef;
+  --teal-900: #f0fdf9;
+  --teal-950: #f6fefc;
+
+  // cyan
+  --cyan-25: #0d2d3a;
+  --cyan-50: #164c63;
+  --cyan-100: #155b75;
+  --cyan-200: #0e7090;
+  --cyan-300: #088ab2;
+  --cyan-400: #06aed4;
+  --cyan-500: #22ccee;
+  --cyan-600: #67e3f9;
+  --cyan-700: #a5f0fc;
+  --cyan-800: #cff9fe;
+  --cyan-900: #ecfdff;
+  --cyan-950: #f5feff;
+
+  --fuchia-25: #47104c;
+  --fuchia-50: #6f1877;
+  --fuchia-100: #821890;
+  --fuchia-200: #9f1ab1;
+  --fuchia-300: #ba24d5;
+  --fuchia-400: #d444f1;
+  --fuchia-500: #e478fa;
+  --fuchia-600: #eeaafd;
+  --fuchia-700: #f6d0fe;
+  --fuchia-800: #fbe8ff;
+  --fuchia-900: #fdf4ff;
+  --fuchia-950: #fefaff;
+
+  --rose-25: #510b24;
+  --rose-50: #89123e;
+  --rose-100: #a11043;
+  --rose-200: #c01048;
+  --rose-300: #e31b54;
+  --rose-400: #f63d68;
+  --rose-500: #fd6f8e;
+  --rose-600: #fea3b4;
+  --rose-700: #fecdd6;
+  --rose-800: #ffe4e8;
+  --rose-900: #fff1f3;
+  --rose-950: #fff5f6;
+
+  // investment color
+  --investment-25: #5f3dc4;
+  --investment-50: #6741d9;
+  --investment-100: #7048e8;
+  --investment-200: #7950f2;
+  --investment-300: #845ef7;
+  --investment-400: #9775fa;
+  --investment-500: #b197fc;
+  --investment-600: #d0bfff;
+  --investment-700: #e5dbff;
+  --investment-800: #f3f0ff;
+
+  // income color
+  --income-25: #2b8a3e;
+  --income-50: #2f9e44;
+  --income-100: #37b24d;
+  --income-200: #40c057;
+  --income-300: #51cf66;
+  --income-400: #69db7c;
+  --income-500: #8ce99a;
+  --income-600: #b2f2bb;
+  --income-700: #d3f9d8;
+  --income-800: #ebfbee;
+
+  // expense
+  --expense-25: #c92a2a;
+  --expense-50: #e03131;
+  --expense-100: #f03e3e;
+  --expense-200: #fa5252;
+  --expense-300: #ff6b6b;
+  --expense-400: #ff8787;
+  --expense-500: #ffa8a8;
+  --expense-600: #ffc9c9;
+  --expense-700: #ffe3e3;
+  --expense-800: #fff5f5;
+
+  // subscription
+  --subscription-25: #932f19;
+  --subscription-50: #b93815;
+  --subscription-100: #e04f16;
+  --subscription-200: #ef6820;
+  --subscription-300: #f38744;
+  --subscription-400: #f7b27a;
+  --subscription-500: #f9dbaf;
+  --subscription-600: #fdead7;
+  --subscription-700: #fef6ee;
+  --subscription-800: #fefaf5;
 }
 
 * {
