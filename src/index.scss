@@ -1,0 +1,55 @@
+/* src/index.scss */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+/* Define light and dark mode color variables */
+:root {
+  --color-primary-0: #121212;
+  --color-primary-50: #282828;
+  --color-primary-100: #3f3f3f;
+  --color-primary-200: #575757;
+  --color-primary-300: #717171;
+  --color-primary-500: #8b8b8b;
+
+  --color-surface-0: #fafafa;
+  --color-surface-50: #fbfbfb;
+  --color-surface-100: #fbfbfb;
+  --color-surface-200: #fcfcfc;
+  --color-surface-300: #fcfcfc;
+  --color-surface-500: #fdfdfd;
+}
+/** Examples */
+
+.dark {
+  /** Dark theme primary colors */
+  --color-primary-0: #fafafa;
+  --color-primary-50: #fbfbfb;
+  --color-primary-100: #fbfbfb;
+  --color-primary-200: #fcfcfc;
+  --color-primary-300: #fcfcfc;
+  --color-primary-500: #fdfdfd;
+
+  /** Dark theme surface colors */
+  --color-surface-0: #121212;
+  --color-surface-50: #282828;
+  --color-surface-100: #3f3f3f;
+  --color-surface-200: #575757;
+  --color-surface-300: #717171;
+  --color-surface-500: #8b8b8b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: var(--color-surface-0);
+  color: var(--color-primary-100);
+}
