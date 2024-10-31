@@ -5,7 +5,7 @@ function App() {
   useEffect(() => {
     document.documentElement.classList.toggle("dark", false);
   }, []);
-  return "Hello";
+  return <div className="">Hello</div>;
 }
 
 export default App;
