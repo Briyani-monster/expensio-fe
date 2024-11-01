@@ -6,6 +6,7 @@ import Receipt from "./reciept.svg?react";
 import Calendar from "./CalendarToday.svg?react";
 import RepeatCalendar from "./RepeatCalendar.svg?react";
 import Add from "./Add.svg?react";
+import Logo from "./logo.svg?react";
 
 interface IconComponents {
   NorthEast: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
@@ -15,6 +16,7 @@ interface IconComponents {
   Calendar: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
   RepeatCalendar: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
   Add: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
+  Logo: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
 }
 
 const iconComponents: IconComponents = {
@@ -25,6 +27,7 @@ const iconComponents: IconComponents = {
   Calendar,
   RepeatCalendar,
   Add,
+  Logo,
 };
 
 export default iconComponents;

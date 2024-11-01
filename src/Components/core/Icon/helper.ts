@@ -9,6 +9,7 @@ export const ICON_MAPPER = {
   Calendar: () => ICONS.Calendar,
   RepeatCalendar: () => ICONS.RepeatCalendar,
   Add: () => ICONS.Add,
+  Logo: () => ICONS.Logo,
 };
 
 export const getIconComponent = (name: IconName) => {
