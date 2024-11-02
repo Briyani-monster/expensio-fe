@@ -1,9 +1,11 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { AppState } from "../../utils/store";
+import { NAVIGATION } from "../../utils/navigattion";
 
 const initialState: AppState = {
   isLoading: false,
   error: null,
+  navigation: NAVIGATION,
 };
 
 const appSlice = createSlice({

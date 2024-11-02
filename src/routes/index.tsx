@@ -28,6 +28,14 @@ const AppRoutes = () => {
           </Route>
           <Route element={<PrivateLayout />}>
             <Route path={ROUTES.dashboard} element={<div>Dashboard</div>} />
+            <Route path={ROUTES.income} element={<div>Income</div>} />
+            <Route path={ROUTES.expense} element={<div>Expense</div>} />
+            <Route path={ROUTES.investement} element={<div>Investment</div>} />
+            <Route
+              path={ROUTES.subscription}
+              element={<div>Subscription</div>}
+            />
+            <Route path={ROUTES.settings} element={<div>Settings</div>} />
           </Route>
           <Route path="*" element={<RouteChecker />} />
         </Routes>

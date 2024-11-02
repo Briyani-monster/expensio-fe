@@ -10,6 +10,14 @@ export const ICON_MAPPER = {
   RepeatCalendar: () => ICONS.RepeatCalendar,
   Add: () => ICONS.Add,
   Logo: () => ICONS.Logo,
+  Dashboard: () => ICONS.Dashboard,
+  Income: () => ICONS.Income,
+  Expense: () => ICONS.Expense,
+  Subscription: () => ICONS.Subscription,
+  Investment: () => ICONS.Investment,
+  Help: () => ICONS.Help,
+  Settings: () => ICONS.Settings,
+  Logout: () => ICONS.Logout,
 };
 
 export const getIconComponent = (name: IconName) => {
