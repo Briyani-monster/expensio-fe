@@ -43,3 +43,8 @@ export interface InputProps {
   postIconProps?: restIconProps;
   disabled?: boolean;
 }
+
+export interface AnimationTypeProps {
+  INCREMENT: string;
+  DECREMENT: string;
+}

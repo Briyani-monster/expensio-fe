@@ -18,6 +18,7 @@ export const ICON_MAPPER = {
   Help: () => ICONS.Help,
   Settings: () => ICONS.Settings,
   Logout: () => ICONS.Logout,
+  Close: () => ICONS.Close,
 };
 
 export const getIconComponent = (name: IconName) => {

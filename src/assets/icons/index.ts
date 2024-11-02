@@ -15,6 +15,7 @@ import Investment from "./investment.svg?react";
 import Help from "./help.svg?react";
 import Settings from "./settings.svg?react";
 import Logout from "./logout.svg?react";
+import Close from "./Close.svg?react";
 
 interface IconComponents {
   NorthEast: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
@@ -33,6 +34,7 @@ interface IconComponents {
   Help: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
   Settings: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
   Logout: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
+  Close: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
 }
 
 const iconComponents: IconComponents = {
@@ -52,6 +54,7 @@ const iconComponents: IconComponents = {
   Help,
   Settings,
   Logout,
+  Close,
 };
 
 export default iconComponents;

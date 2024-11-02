@@ -351,3 +351,84 @@ body {
   background-color: var(--color-surface-0);
   color: var(--color-primary-0);
 }
+
+// Slider Component
+.slider {
+  @apply fixed flex flex-col top-0 right-0 w-[688px] z-[802] h-full bg-white shadow-xl translate-x-full duration-500 ease-in-out overflow-hidden;
+}
+
+.left-header {
+  @apply translate-y-full opacity-0 duration-300 ease-in-out;
+}
+
+.left-header.visible {
+  @apply translate-y-0 opacity-100;
+}
+
+.slider.open {
+  @apply translate-x-0;
+}
+
+.slide-in {
+  animation: slide-in 350ms ease-in-out;
+  -webkit-animation: slide-in 350ms ease-in-out;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@-webkit-keyframes slide-in {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    -webkit-transform: translateX(0%);
+  }
+}
+.slide-out {
+  animation: slide-out 350ms reverse;
+  -webkit-animation: slide-out 350ms ease-in-out;
+}
+
+@keyframes slide-out {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@-webkit-keyframes slide-out {
+  0% {
+    -webkit-transform: translateX(-100%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+  }
+}
+
+.slider-content-container {
+  @apply h-full flex flex-col justify-between overflow-auto;
+}
+
+.slider-content-core {
+  @apply h-full overflow-auto px-9;
+}
+
+.slider-footer {
+  @apply w-full bg-white left-0 bottom-0 z-10 shadow-lg shrink-0;
+  box-shadow: 0px -4px 6px 2px rgba(16, 24, 40, 0.08);
+}
+
+.slider-footer-right-buttons {
+  @apply flex items-center justify-end gap-6 px-6 py-4;
+}
