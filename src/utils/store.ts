@@ -10,6 +10,7 @@ export interface navigationProps {
 export interface AppState {
   isLoading: boolean;
   error: string | null;
-  navigation: { topNav: navigationProps[]; bottomNav: navigationProps[] };
+  currency: string;
+  navigation: { topNav: navigationProps[]; bottomNav: string[] };
   // Add other state properties here as needed
 }

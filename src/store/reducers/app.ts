@@ -5,6 +5,7 @@ import { NAVIGATION } from "../../utils/navigattion";
 const initialState: AppState = {
   isLoading: false,
   error: null,
+  currency: "inr",
   navigation: NAVIGATION,
 };
 

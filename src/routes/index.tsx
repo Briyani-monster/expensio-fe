@@ -14,6 +14,7 @@ import PrivateLayout from "../layout/PrivateLayout";
 
 const Login = lazy(() => import("../pages/public/LoginPage"));
 const Signup = lazy(() => import("../pages/public/Signup"));
+const IncomePage = lazy(() => import("../pages/Private/IncomePage"));
 // const Login = lazy(() => import("./pages/Login"));
 // const Dashboard = lazy(() => import("./pages/Dashboard"));
 
@@ -28,7 +29,7 @@ const AppRoutes = () => {
           </Route>
           <Route element={<PrivateLayout />}>
             <Route path={ROUTES.dashboard} element={<div>Dashboard</div>} />
-            <Route path={ROUTES.income} element={<div>Income</div>} />
+            <Route path={ROUTES.income} element={<IncomePage />} />
             <Route path={ROUTES.expense} element={<div>Expense</div>} />
             <Route path={ROUTES.investement} element={<div>Investment</div>} />
             <Route

@@ -8,4 +8,4 @@ export const selectIsLoading = (state: RootState) => state.app.isLoading;
 // Selector to get the error state
 export const selectError = (state: RootState) => state.app.error;
 export const navigationSelector = (state: RootState) => state.app.navigation;
-// Add more selectors here as needed
+export const currencySelector = (state: RootState) => state.app.currency;

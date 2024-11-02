@@ -88,7 +88,7 @@ export default function SlideDrawer({
             {onBack && haveBack ? (
               <span
                 onClick={onBack}
-                className="cursor-pointer p-4.5 rounded-lg hover:bg-neutral-200 self-start"
+                className="cursor-pointer p-5 rounded-lg hover:bg-neutral-200 self-start"
               >
                 <Icon name="ArrowLeft" />
               </span>
@@ -102,7 +102,7 @@ export default function SlideDrawer({
             <span
               id="hide-close"
               onClick={close}
-              className="cursor-pointer p-4.5 rounded-lg hover:bg-neutral-200 self-start"
+              className="cursor-pointer p-2 rounded-lg hover:bg-neutral-200 self-start"
             >
               <Icon name="Close" className="text-neutral-800" />
             </span>
