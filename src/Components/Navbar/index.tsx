@@ -16,7 +16,8 @@ const Navbar = (props: Props) => {
   console.log(location.pathname);
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
-      console.log(event.key.toLowerCase());
+      console.log(event);
+      if (event.target.id === "search-bar") return;
       switch (event.key.toLowerCase()) {
         case NAVIGATION__KEYBOARD_KEY.dashboard.toLowerCase():
           navigationHook(ROUTES.dashboard);

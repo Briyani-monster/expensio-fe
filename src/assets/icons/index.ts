@@ -16,6 +16,14 @@ import Help from "./help.svg?react";
 import Settings from "./settings.svg?react";
 import Logout from "./logout.svg?react";
 import Close from "./Close.svg?react";
+import NoData from "./noData.svg?react";
+import SortAsc from "./sortAsc.svg?react";
+import SortDesc from "./sortDesc.svg?react";
+import Category from "./Category.svg?react";
+import Search from "./Search.svg?react";
+import ArrowBack from "./ArrowBack.svg?react";
+import DateFilter from "./DateFilter.svg?react";
+import Columns from "./Columns.svg?react";
 
 interface IconComponents {
   NorthEast: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
@@ -35,6 +43,14 @@ interface IconComponents {
   Settings: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
   Logout: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
   Close: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
+  NoData: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
+  SortAsc: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
+  SortDesc: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
+  Category: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
+  Search: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
+  ArrowBack: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
+  DateFilter: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
+  Columns: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
 }
 
 const iconComponents: IconComponents = {
@@ -55,6 +71,14 @@ const iconComponents: IconComponents = {
   Settings,
   Logout,
   Close,
+  NoData,
+  SortAsc,
+  SortDesc,
+  Category,
+  Search,
+  ArrowBack,
+  DateFilter,
+  Columns,
 };
 
 export default iconComponents;

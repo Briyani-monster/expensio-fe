@@ -8,6 +8,9 @@ import {
 import { amountToCurrency, formatNumber } from "../../utils/common";
 import { useSelector } from "react-redux";
 import { currencySelector } from "../../store/selectors/app";
+import Table from "../core/Table";
+import { MASTER_TABLE_HEADERS, TABLE_COMPONENTS } from "../core/Table/helper";
+import Filters from "../core/Filters";
 
 type Props = {};
 
@@ -34,7 +37,10 @@ const Income = (props: Props) => {
             </Card>
           ))}
         </div>
-        <div></div>
+        <div>
+          <Filters />
+          <Table data={[]} headers={MASTER_TABLE_HEADERS.EXPENSE} />
+        </div>
       </div>
     </Page>
   );

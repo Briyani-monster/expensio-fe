@@ -1,0 +1,199 @@
+/* Container styling for the entire dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+}
+
+.dropdown button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #fdfdfd;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  max-height: 300px;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+/* Style for search input within dropdown */
+.dropdown-menu input[type="text"] {
+  width: 90%;
+  padding: 8px;
+  margin: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style for options list */
+.options-list {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Each option item with checkbox */
+.option-item {
+  display: flex;
+  align-items: center;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.option-item:hover {
+  background-color: #f0f0f0;
+}
+
+.option-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Loading indicator */
+.loading {
+  text-align: center;
+  padding: 10px;
+  color: #777;
+}
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.1);
+}
+*::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+*::-webkit-scrollbar-thumb:active {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.date-dropdown {
+  position: relative;
+  display: inline-block;
+  width: 120px;
+  height: 30px;
+}
+.date-dropdown button {
+  @apply flex items-center gap-2;
+  padding-inline: 10px;
+  padding-block: 3px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid #ccc;
+  color: black;
+  width: 120px;
+  border-radius: 4px;
+}
+
+.date-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.date-option {
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.date-option:hover,
+.date-option.selected {
+  background-color: #f0f0f0;
+}
+
+.custom-date-picker {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.custom-date-picker label {
+  margin-bottom: 8px;
+}
+
+.custom-date-picker input[type="date"] {
+  padding: 6px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+//
+.column-filter-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.column-filter-dropdown button {
+  @apply flex items-center gap-2;
+  padding-inline: 10px;
+  padding-block: 3px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid #ccc;
+  color: black;
+  width: 120px;
+  border-radius: 4px;
+}
+
+.column-options {
+  @apply flex flex-col text-base font-normal gap-2;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 120px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+
+  z-index: 1000;
+}
+
+.column-options label {
+  cursor: pointer;
+}
+.column-options input[type="checkbox"] {
+  @apply w-8;
+}
+.category-button {
+  @apply flex items-center gap-2;
+  padding-inline: 10px;
+  padding-block: 3px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid #ccc;
+  color: black;
+  width: 120px;
+  border-radius: 4px;
+}

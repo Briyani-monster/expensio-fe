@@ -6,10 +6,10 @@ const PrivateLayout = () => {
   return (
     <div className="flex flex-row h-screen overflow-hidden">
       <Navbar />
-      <main className="flex-1">
-        <GlobalSlider />
+      <main className="flex-1 overflow-y-auto">
         <Outlet />
       </main>
+      <GlobalSlider />
     </div>
   );
 };

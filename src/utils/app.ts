@@ -23,3 +23,11 @@ export const CARDS_UI_OF_DIFFERENT_PAGES = {
     },
   ],
 };
+export enum DateRangeOption {
+  All = "All",
+  ThisWeek = "This Week",
+  ThisMonth = "This Month",
+  PastWeek = "Past Week",
+  PastMonth = "Past Month",
+  Custom = "Custom",
+}

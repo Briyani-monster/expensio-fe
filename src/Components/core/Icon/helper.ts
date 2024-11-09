@@ -1,4 +1,5 @@
 import ICONS from "../../../assets/icons/index";
+import Search from "../Filters/Search";
 import { IconName } from "../typeCore";
 
 export const ICON_MAPPER = {
@@ -19,6 +20,14 @@ export const ICON_MAPPER = {
   Settings: () => ICONS.Settings,
   Logout: () => ICONS.Logout,
   Close: () => ICONS.Close,
+  NoData: () => ICONS.NoData,
+  SortDesc: () => ICONS.SortDesc,
+  SortAsc: () => ICONS.SortAsc,
+  Category: () => ICONS.Category,
+  Search: () => ICONS.Search,
+  ArrowBack: () => ICONS.ArrowBack,
+  DateFilter: () => ICONS.DateFilter,
+  Columns: () => ICONS.Columns,
 };
 
 export const getIconComponent = (name: IconName) => {
